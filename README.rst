@@ -2,6 +2,17 @@
 editdistance
 ============
 
+----------
+What I did
+----------
+
+Delete all japanese characters in editdistance/_editdistance.cpp to bypass visual studio C++ build fail issue on Windows.
+
+
+-----------
+Abstraction
+-----------
+
 Fast implementation of the edit distance (Levenshtein distance).
 
 This library simply implements `Levenshtein distance <http://en.wikipedia.org/wiki/Levenshtein_distance>`_ with C++ and Cython.
@@ -24,7 +35,7 @@ You can install via pip:
 
 .. code-block:: bash
 
-    pip install editdistance
+    pip install git+https://github.com/hwjfordev/editdistance.git
 
 
 -----
