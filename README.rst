@@ -9,9 +9,9 @@ What I did
 Delete all japanese characters in editdistance/_editdistance.cpp to bypass visual studio C++ build fail issue on Windows.
 
 
------------
-Abstraction
------------
+--------
+Abstract
+--------
 
 Fast implementation of the edit distance (Levenshtein distance).
 
